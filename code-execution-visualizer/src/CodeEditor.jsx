@@ -1,3 +1,12 @@
+// import { EditorView, basicSetup } from "codemirror";
+// import { javascript } from "@codemirror/lang-javascript";
+
+// const editor = new EditorView({
+//   doc: "var x = 10;\nvar y = 20;\nvar sum = x + y;",
+//   extensions: [basicSetup, javascript()],
+//   parent: document.getElementById("editor-container")
+// });
+// ___________________
 import { useEffect, useRef } from "react";
 import { EditorView, basicSetup } from "codemirror";
 import { javascript } from "@codemirror/lang-javascript";
